@@ -1,3 +1,19 @@
 body {
   background: #F5F5F2;
 }
+
+.panel {
+  height: 250px;
+  position: relative;
+  border: none;
+  border-bottom: 1px solid #D4DADF;
+  max-width: 300px;
+
+  background: white;
+}
+
+.users {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
