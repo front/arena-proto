@@ -1,5 +1,9 @@
 body {
-  background: #F5F5F2;
+  background: linear-gradient(
+    rgb(176, 68, 152), 
+    rgb(242, 215, 232), 
+    rgb(176, 68, 152)
+    );
 }
 
 h1 {
@@ -25,4 +29,8 @@ h1 {
   bottom: 20px;
   left: 20px;
   right: 20px;
+}
+
+.flippant-back h1 {
+    color: white;
 }
